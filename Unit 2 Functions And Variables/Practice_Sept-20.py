@@ -1,4 +1,6 @@
 favorite_animal = input("whats your favorite animal?\n>")
 reason = input("why is it your favorite animal?\n>")
-print(str"your favorite animal is {favorite_animal} because its {reason} thats cool")
+print(f"your favorite animal is {favorite_animal} because its {reason} thats cool")
 habitat = input("where does your favorite animal live?\n>")
+Reason = input("Why does your favorite animal live there?\n>")
+print(f"so {favorite_animal}s live in {habitat} because {reason} thats very interesting")
