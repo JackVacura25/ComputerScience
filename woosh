@@ -1,0 +1,7 @@
+from adafruit_circuitplayground import cp
+import time
+
+while True:
+      for i in range(0,9):
+            cp.pixels[i] = (0, 0, 255)
+            time.sleep(0.100)
