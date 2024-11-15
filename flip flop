@@ -18,11 +18,4 @@ while True:
 
 
                   
-from adafruit_circuitplayground import cp
-import time
 
-while True:
-      if cp.switch:
-            cp.pixels.fill((0, 0, 255))
-            for i in range(1, 4):
-                  cp.pixels[i] = ((0, 1, 0))
